@@ -1,3 +1,4 @@
+import Composition from "./examples/Composition";
 import Inheritance from "./examples/Inheritance";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
         <h1>React Composition Pattern example</h1>
       </header>
       <main className="main__container">
-        <Inheritance />
+        {/* <Inheritance /> */}
+        <Composition />
       </main>
     </>
   );
